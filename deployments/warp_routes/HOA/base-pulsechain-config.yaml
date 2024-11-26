@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x84B0b1EE6eef971105442Eb9Ab420F3DbB774b46"
+    chainName: base
+    connections:
+      - token: ethereum|pulsechain|0x50d03965Ed30de5d246BdDa18E7B10A8904B8CF1
+    decimals: 18
+    name: Hex Orange Address
+    standard: EvmHypSynthetic
+    symbol: HOA
+  - addressOrDenom: "0x50d03965Ed30de5d246BdDa18E7B10A8904B8CF1"
+    chainName: pulsechain
+    collateralAddressOrDenom: "0x7901a3569679AEc3501dbeC59399F327854a70fe"
+    connections:
+      - token: ethereum|base|0x84B0b1EE6eef971105442Eb9Ab420F3DbB774b46
+    decimals: 18
+    name: Hex Orange Address
+    standard: EvmHypCollateral
+    symbol: HOA
