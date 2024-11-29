@@ -31,3 +31,5 @@ rpcUrls:
 transactionOverrides:
   maxFeePerGas: 800000000000000
   maxPriorityFeePerGas: 2500000000
+technicalStack: other
+  
