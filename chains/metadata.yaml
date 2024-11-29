@@ -27,7 +27,7 @@ base:
     - http: https://base.publicnode.com/
     - http: https://mainnet.base.org
     - http: https://base.blockpi.network/v1/rpc/public
-  technicalStack: opstack
+  technicalStack: other
 mode:
   blockExplorers:
     - apiUrl: https://explorer.mode.network/api
@@ -55,7 +55,7 @@ mode:
   rpcUrls:
     - http: https://mainnet.mode.network
     - http: https://mode.drpc.org
-  technicalStack: opstack
+  technicalStack: other
 pulsechain:
   blockExplorers:
     - apiUrl: https://api.scan.pulsechain.com/api
