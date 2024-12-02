@@ -90,7 +90,7 @@ mode:
   rpcUrls:
     - http: https://mainnet.mode.network
     - http: https://mode.drpc.org
-  technicalStack: opstack
+  technicalStack: other
 neutron:
   bech32Prefix: neutron
   blockExplorers:
@@ -160,6 +160,7 @@ pulsechain:
   transactionOverrides:
     maxFeePerGas: 800000000000000
     maxPriorityFeePerGas: 2500000000
+  technicalStack: other
 sei:
   blockExplorers:
     - apiUrl: https://seitrace.com/pacific-1/api
