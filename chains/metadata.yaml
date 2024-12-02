@@ -63,6 +63,36 @@ base:
     - http: https://mainnet.base.org
     - http: https://base.blockpi.network/v1/rpc/public
   technicalStack: other
+mantapacific:
+  blockExplorers:
+    - apiUrl: https://pacific-explorer.manta.network/api
+      family: blockscout
+      name: Manta Pacific Explorer
+      url: https://pacific-explorer.manta.network
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 3
+    reorgPeriod: 1
+  chainId: 169
+  deployer:
+    name: Abacus Works
+    url: https://www.hyperlane.xyz
+  displayName: Manta Pacific
+  displayNameShort: Manta
+  domainId: 169
+  gasCurrencyCoinGeckoId: ethereum
+  gnosisSafeTransactionServiceUrl: https://transaction.safe.manta.network
+  isTestnet: false
+  name: mantapacific
+  nativeToken:
+    decimals: 18
+    name: Ether
+    symbol: ETH
+  protocol: ethereum
+  rpcUrls:
+    - http: https://pacific-rpc.manta.network/http
+    - http: https://manta.nirvanalabs.xyz/mantapublic
+  technicalStack: other
 mode:
   blockExplorers:
     - apiUrl: https://explorer.mode.network/api
@@ -126,6 +156,41 @@ neutron:
   slip44: 118
   transactionOverrides:
     gasPrice: "0.0075"
+osmosis:
+  bech32Prefix: osmo
+  blockExplorers:
+    - apiUrl: https://www.mintscan.io/osmosis
+      family: other
+      name: Mintscan
+      url: https://www.mintscan.io/osmosis
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 3
+    reorgPeriod: 1
+  chainId: osmosis-1
+  deployer:
+    name: Mitosis
+    url: https://mitosis.org
+  displayName: Osmosis
+  domainId: 875
+  gasCurrencyCoinGeckoId: osmosis
+  grpcUrls:
+    - http: osmosis-grpc.publicnode.com:443
+  isTestnet: false
+  name: osmosis
+  nativeToken:
+    decimals: 6
+    denom: uosmo
+    name: Osmosis
+    symbol: OSMO
+  protocol: cosmos
+  restUrls:
+    - http: https://osmosis-rest.publicnode.com
+  rpcUrls:
+    - http: https://osmosis-rpc.publicnode.com
+  slip44: 118
+  transactionOverrides:
+    gasPrice: "0.025"
 pulsechain:
   blockExplorers:
     - apiUrl: https://api.scan.pulsechain.com/api
