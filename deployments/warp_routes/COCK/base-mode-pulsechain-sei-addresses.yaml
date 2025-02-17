@@ -1,7 +1,5 @@
 base:
   synthetic: "0xC450f0887A94D1B2ad4b1b05734bEfe860919A2B"
-mode:
-  synthetic: "0x2fdd76fC5A8F6081E059DF76756E347f6B8278d8"
 pulsechain:
   collateral: "0x5DD749B87FA2e456482adb231FB9c2b0302A3027"
 sei:

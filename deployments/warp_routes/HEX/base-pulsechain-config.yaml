@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xe0c4Aa6A461f5032F3153DC2801dD5fcEf9D469e"
+    chainName: base
+    connections:
+      - token: ethereum|pulsechain|0xe227B51F5D7079fAa07b7621657e3aa5906d2185
+    decimals: 8
+    name: HEX
+    standard: EvmHypSynthetic
+    symbol: HEX
+  - addressOrDenom: "0xe227B51F5D7079fAa07b7621657e3aa5906d2185"
+    chainName: pulsechain
+    collateralAddressOrDenom: "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39"
+    connections:
+      - token: ethereum|base|0xe0c4Aa6A461f5032F3153DC2801dD5fcEf9D469e
+    decimals: 8
+    name: HEX
+    standard: EvmHypCollateral
+    symbol: HEX

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x050c6C2555c2d54AbA01420FBc02fF0F1d10E8dF"
+    chainName: base
+    connections:
+      - token: ethereum|pulsechain|0x688B161745c4eCEc2Ce07DC385cF2B57D9980244
+    decimals: 18
+    name: PulseX
+    standard: EvmHypSynthetic
+    symbol: WPLS
+  - addressOrDenom: "0x688B161745c4eCEc2Ce07DC385cF2B57D9980244"
+    chainName: pulsechain
+    collateralAddressOrDenom: "0xA1077a294dDE1B09bB078844df40758a5D0f9a27"
+    connections:
+      - token: ethereum|base|0x050c6C2555c2d54AbA01420FBc02fF0F1d10E8dF
+    decimals: 18
+    name: Wrapped Pulse
+    standard: EvmHypCollateral
+    symbol: WPLS

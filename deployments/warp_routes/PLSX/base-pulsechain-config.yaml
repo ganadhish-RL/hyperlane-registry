@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xf283A5df86FbC521CB4F5508db167C6d476a7AB9"
+    chainName: base
+    connections:
+      - token: ethereum|pulsechain|0x87353B9AA546F8cf7290DeD2d339C0Ec694d7144
+    decimals: 18
+    name: PulseX
+    standard: EvmHypSynthetic
+    symbol: PLSX
+  - addressOrDenom: "0x87353B9AA546F8cf7290DeD2d339C0Ec694d7144"
+    chainName: pulsechain
+    collateralAddressOrDenom: "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab"
+    connections:
+      - token: ethereum|base|0xf283A5df86FbC521CB4F5508db167C6d476a7AB9
+    decimals: 18
+    name: PulseX
+    standard: EvmHypCollateral
+    symbol: PLSX
